@@ -57,10 +57,13 @@ Python 3
 ## Project structuur
 **Analyse**:
 Bevat de exploratory data analysis.
+
 **Dashboard**
 Bevat de app.py bestand voor het runnen van het dashboard. Hiernaast bevat het de bestanden die gebruikt moeten worden voor het dashboard.
+
 **Docs**
 Bevat het hostingsplan.
+
 **raw_data**
 Bevat de orginele data die is verkegen bij het start van het project.
 Alleen in deze bestanden waren de patiënten niet gelijk in beide bestanden, dit is aangepast in de bestanden die staan bij het dashboard.
