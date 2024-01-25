@@ -1,5 +1,5 @@
 # DD-radiomics
-##### Larissa Voshol | ##### 20-11-2023 | ##### Bio informatica 2 | ##### versie 1
+##### Larissa Voshol | 20-11-2023 | Bio informatica 2 | versie 1
 
 ## Introductie
 In deze repo kan je de code en data vinden voor een data dashboard gemaakt in panel.
