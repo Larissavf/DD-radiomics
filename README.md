@@ -69,10 +69,12 @@ Alleen in deze bestanden waren de patiënten niet gelijk in beide bestanden, dit
 Om het dashboard te starten moet u beginnen met het clonen van de repo. Vervolgens naar Dashboard te gaan en daar de app.py te runnen.
 
 **Om te starten:**
+
 <img width="674" alt="image" src="https://github.com/Larissavf/DD-radiomics/assets/116642226/74c9f29a-a3cd-4329-877b-0914056a129d">
 Begin met het uploaden van de goede bestanden in de aangewezen plekken. En vergeet niet de features te selecteren die je wilt vergelijken.
 
 **volgende stap**
+
 <img width="645" alt="image" src="https://github.com/Larissavf/DD-radiomics/assets/116642226/0b3d06b2-c0f8-4017-94d2-96862bc84f0b">
 Dan komt deze knop te voorschijn als u die drukt, dan kunt u kiezen voor de grafiek die u wilt maken.
 Hierbij kan je dus kiezen voor een Boxplot, Heatmap, Scatter(f1) en Scatter(f2)
@@ -82,6 +84,7 @@ Scatter(f1): kunt u 1 feauture vergelijken per patient verdeeld over een bepaald
 Scatter(f2): kunt u 2 features tegenoverelkaar vergelijken met ook een bepaalde groep verdeling.
 
 **grafiek**
+
 <img width="478" alt="image" src="https://github.com/Larissavf/DD-radiomics/assets/116642226/6ca8e66e-6e4f-49a6-88c6-0c49d5e1fb7d">
 Dan komt de grafiek in beeld, de knoppen die hier aanwezig zijn zijn afhankelijk van de soort grafiek die u wilt maken.
 Maar hier kunt u de waardes aanpassen en zal de grafiek zich automatisch mee aanpassen.
