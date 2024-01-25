@@ -797,7 +797,9 @@ add_graphbox = pn.WidgetBox(
 ## welcome element
 welcome = pn.Column(
     "# Welcome at PlotRadionomics",
-    """Here you can make different plots of your radionomics data.
+    """Here you can take a look at your pyradiomics data using a boxplot, heatmap or a scatter plot.
+    In the pyradiomics data you've different groups of data, you can take a look at the different
+    groups by selecting the features underneath. At the moment you need to put in a pyradiomics 
     For this you also need a clinical file with data of all the same patients in your radionomics.
     This data can be info you can filter the dataset on.
     Only csv files are accepted.""",
