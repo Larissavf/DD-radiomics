@@ -80,10 +80,10 @@ Begin met het uploaden van de goede bestanden in de aangewezen plekken. En verge
 
 Dan komt deze knop te voorschijn als u die drukt, dan kunt u kiezen voor de grafiek die u wilt maken.
 Hierbij kan je dus kiezen voor een Boxplot, Heatmap, Scatter(f1) en Scatter(f2)
-Boxplot: kunt u de spreiding zien van de feautures in de z-score.
-Heatmap: kunt u kijken naar de correlatie tussen de verschillende feautures.
-Scatter(f1): kunt u 1 feauture vergelijken per patient verdeeld over een bepaalde groep.
-Scatter(f2): kunt u 2 features tegenoverelkaar vergelijken met ook een bepaalde groep verdeling.
++ Boxplot: kunt u de spreiding zien van de feautures in de z-score.
++ Heatmap: kunt u kijken naar de correlatie tussen de verschillende feautures.
++ Scatter(f1): kunt u 1 feauture vergelijken per patient verdeeld over een bepaalde groep.
++ Scatter(f2): kunt u 2 features tegenoverelkaar vergelijken met ook een bepaalde groep verdeling.
 
 **grafiek**
 
