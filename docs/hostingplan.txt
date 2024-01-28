@@ -1,0 +1,37 @@
+Hostingplan
+Voor het hostingplan zal ik op een theoretische wijze benoemen hoe ik het zou doen.
+
+Hiervoor zal ik beginnen met het definiëren van mijn verwachtingen en wat ik hiervoor nodig heb.
+
+Het is een dashboard voor de Pyradiomics dataset. Het is gemaakt met behulp van panel. 
+Deze package maakt gebruik van de bokeh server. Hiervoor kan je dus gebruik maken van die bokeh server. 
+Deze zal worden gedraaid op de remote host. En dan doormiddel van een proxy connectie met Nginx. 
+Dit doordat het een efficiënte configuratie heeft, en makkelijk gebruikt kan worden. 
+Ik heb verschillende componenten waar ik gebruik van maak. Zoals bokeh en hvplot. 
+Dit zijn er nog maar 2, maar door de efficiënte configuratie zal dat makkelijk zijn. 
+Het is heel efficiënt als je veel connecties hebt. Maar mijn verwachtingen zijn dat dit niet door vele tegelijk in gebruik wordt genomen. 
+Het zal alleen door mensen worden gebruikt die een analyse willen van hun Pyradionomics dataset. Dus dan zit dat sowieso helemaal goed.
+
+Om het dashboard te kunnen gebruiken moeten hiervoor 2 datasets worden ingeladen. 
+Het inladen kan gedaan worden met behulp van SSL/TSl-implementatie voor een beveiligde upload procedure, om het naar een externe opslag service te brengen. 
+SSL kan ook via Nginx afgehandeld worden dus dat scheelt weer.
+
+De grootte van de dataset is heel afhankelijk van de gebruiker zelf. 
+Omdat het afhankelijk is van het aantal patiënten dat wordt vergeleken. 
+Maar dit kan verschillen van de 10 patiënten tot honderden ligt aan het onderzoek.  
+Wat in verhoudingen nog een best kleine dataset is. Deze dataset kan vervolgens op een clNginx is instaat om data te chaching, 
+en dit vervolgens op een locale plek op te slaan. Dit is heel handig, 
+dus dan zouden keuzes die de client maakt voor de grafieken gecashed kunnen worden. 
+En de genereren van de grafieken efficiënter is. En scheelt dat dus performance. 
+
+Voor performance zou ervoor gekozen kunnen worden om de datasets te bewerken op de server voordat het naar de client wordt toegestuurd. 
+Alleen bij de kleine datasets maakt dat geen grootte verschillen, maar dan is het voorbereid als er wel grootte onderzoeken gedaan willen worden.
+
+Voor webhosting zou ik kiezen voor cloud vps. Dit doordat de goed controle houdt. 
+Het is voornamelijk meer gericht voor echt ingewikkelde grootte projecten. 
+Maar dat zal beteken dat het dit kleinere project makkelijke verwerkt en het dus goed geschikt kan zijn voor meerdere gebruikers. 
+Je hebt hier alleen wel veel technische kennis voor nodig. Maar dit kan je uiteraard wel krijgen op het moment. 
+Maar als het theoretisch moet dan kan alles natuurlijk.
+
+Ook is er voor het houden van een efficiënt website monitoring nodig. Hiervoor kan Prometheus gebruikt worden, 
+om dus de prestaties van de app in de gaten te houden.
